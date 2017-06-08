@@ -1,0 +1,62 @@
+.bank-div{
+    /*border: 1px solid #ff6699;*/
+    background-color: #ffe6ee;
+    width: 100%;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+}
+.money{
+    padding-right: 20px;
+}
+.seller_icon{
+    width: 40px;
+    height:40px;
+}
+.dish_img{
+    position: relative;
+    width: 50px; height:50px;
+}
+.order_time{
+    float: right;
+    /*border: 1px solid #ff6699;*/
+    background-color: #ffe6ee;
+    width: 50%;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+}
+.modal-dialog {
+    max-width:none;
+    width: 880px;
+}
+.cost_format{
+    float: right;
+}
+.completed{
+    font-size: 25px;
+    color: green;
+}
+.strip_list{
+    margin-bottom: 0px;
+}
+.table-condensed{
+    margin-bottom: 0px;
+}
+.nomargin_top{
+    padding-left:15px;
+}
+.order-modal-body{
+    padding: 25px 25px 15px;
+}
+.btn-row{
+    padding-left:30px;
+}
+.title-word{
+    color: #fff;
+}
+.fieldset{
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+.account-modal-body{
+    padding-bottom: 35px;
+}

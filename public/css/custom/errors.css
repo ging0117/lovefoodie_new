@@ -1,0 +1,8 @@
+.center {
+    text-align: center;
+}
+.centerImg {
+    display: block;
+    margin: auto;
+    width: 40%;
+}

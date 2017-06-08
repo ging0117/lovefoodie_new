@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2017, 10:29:56 PM
+    Author     : mandy
+*/
+#term p{
+    font-size: 14px;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+.sidenav-list{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.sidenav-text, .sidenav-item {
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+    color: #767676;
+}
+.sidenav-item:hover, .sidenav-item:focus {
+    text-decoration: none;
+    color: #bbb;
+}
+.sidenav-item[aria-selected="true"] {
+    text-decoration: none;
+    color: #484848;
+    font-weight: bold;
+}

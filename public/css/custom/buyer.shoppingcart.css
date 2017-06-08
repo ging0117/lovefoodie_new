@@ -1,0 +1,78 @@
+.price{
+    font: 25px bold;
+}
+.quantity{
+    font: 25px bold;
+}
+.total{
+    color: red;
+}   
+.rating {
+    color: #ccc;
+}
+a:hover
+h3{
+    color: #ec008c;
+}
+.summary{
+    background-color:#E6E6FA; /*  #cceeff;*/
+} 
+.tax, .deliver{
+    /*background-color:#D5DBDB; */
+}
+select.showInline
+{
+    display: inline;
+}
+
+.icon_close_alt2{
+    color: #ec008c;
+}
+.inline{
+    float:left;
+    width: 50%;
+}
+.noshow{
+    display: none;
+}
+.card-btn{
+    margin-top: -10px; 
+    margin-right: -10px;
+}
+.options:hover {
+    background-color: #ffe6ee;
+}
+.options{
+    padding: 10px 20px 10px 20px;
+}
+.modal-header{
+    background-color: #ffe6ee;
+}
+.hilite {
+    background-color: #ffe6ee;
+}
+.wait {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../image/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+div.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+div.loading .wait {
+    display: block;
+}

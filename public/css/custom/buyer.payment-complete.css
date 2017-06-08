@@ -1,0 +1,19 @@
+.box_style_2 a {
+    background: #ec008c none repeat scroll 0 0;
+    border: 2px solid #ec008c;
+    border-radius: 3px; 
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    outline: medium none;
+    padding: 15px 30px;
+    right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transition: all 0.3s ease 0s;
+}

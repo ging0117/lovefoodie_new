@@ -1,0 +1,123 @@
+.btn_add_cart{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color:#fff;
+    background: #ffccb3;;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    font-size:12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform:uppercase;
+    font-weight:600;
+    display:inline-block;
+    text-align:center;
+    margin-left: 61%;
+}
+.btn_add_cart:hover{
+    background:#333;
+    color:white;
+}
+.shop_name_grid{
+    color: #333;
+    margin-top: 4%;
+}
+.shop_name_grid a{
+    color: #333
+}
+.shop_name_grid a:hover{
+    color: #66b3ff;
+}
+#icon_position_grid{
+    text-align: left;
+    padding-left: 0;
+    height: 400px;
+}
+.heart_grid{
+    padding-left: 80%;
+}
+.storage_position{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.price_font{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.img_grid{
+    display:block;
+    position:static;
+    margin:auto;
+    margin-bottom:15px;
+    width:50%;
+    height:auto;
+    border:1px solid #ededed;
+    left:0;
+    top:0;
+    overflow:hidden;
+    padding:5px;
+    text-align:center;
+    box-sizing: border-box;
+}
+.img_grid img{
+    width: 100%;
+    height: auto;
+}
+.display{
+    display: inline;
+}
+.undisplay{
+    display: none;
+}
+.filter_font{
+    padding-left: 32px;
+    padding-bottom: 5px;
+}
+.food_info{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.name_bottom h3{
+    margin-bottom: 10px;
+}
+.btn_appear{
+    background-color:#ffccb3;
+    margin-right: 0px;
+}
+.shop_name{
+    color: #333;
+    margin-top: 6%;
+}
+.shop_name a{
+    color: #333;
+}
+.shop_name a:hover,a:focus{
+    color: #66b3ff;
+}
+a#filters_col_bt{
+    display:inline-block;
+}
+#apply-btn{
+    margin-right: 0px;
+    margin-top: -8px;
+}
+#dish-img{
+    width: 170px;
+    height: 170px;
+}

@@ -1,0 +1,365 @@
+body {
+    /*background: url("../img/photo_bg.jpg") no-repeat center center fixed;*/
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #666;
+}
+
+/* Typography */
+h1#title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 3.2em;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    margin: 0 auto;
+    padding-top: 180px;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+h1#title span span {
+    font-weight: 400;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #aeaeae;
+}
+
+p.small {
+    font-size: 0.8em;
+    margin: 20px 0 0;
+}
+
+
+/* Layout */
+/*.container {
+        margin: 0;
+}*/
+
+.top {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+.w3-navbar li {
+    font-weight:bold;
+    font:13px georgia,serif;
+    text-align:center;
+
+}
+
+ul.w3-navbar{
+    margin-left: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:700px;
+
+}
+.w3-navbar li a:hover{
+    color: #b3b3b3;
+    font-weight: bold;
+    background-color:#f5f5f5;
+
+}
+.changecolor{
+    color: SteelBlue !important;
+}
+.login-box {
+    background-color: white;
+    max-width: 340px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.login-box .box-header {
+    background-color: #665851;
+    margin-top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+    font-weight: 700;
+    font-size: .8em;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.login-box input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #888;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #665851;
+    transition: 0.5s;
+    color: #665851;
+}
+
+.login-box button {
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    background-color: #665851;
+    cursor:pointer;
+    outline: none;
+}
+
+.login-box button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.login-box button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.selected {
+    color: #665851!important;
+    transition: 0.5s;
+}
+
+/* Animation Delay */
+#logo {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+}
+
+.login-box {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.btn-google{
+    background: url("../../image/googleLogin.png");
+    width: 194px;
+    height: 34px;
+    display: inline-block;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.btn-facebook{
+    background: url("../../image/LoginFacebook.png");
+    width: 194px;
+    height: 34px;
+    display: inline-block;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#forgotPasswLink{
+    margin-bottom: 10px;
+    width:300px;
+
+}
+
+#forgotPasswLink a p{
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width:150px;float:left;}
+
+
+a.btn.btn-block.btn-social.btn-google:hover{
+    opacity:0.5;
+}
+
+a.btn.btn-block.btn-social.btn-facebook:hover{
+    opacity:0.5;
+}
+
+.category{
+    display:none;
+}
+#updatecolor{
+    color:teal !important;
+    padding:10px;
+}
+.w3-navbar li a:hover{
+    background-color:#b3b3cc;
+
+}
+
+.w3-navbar li {
+    font-style:bold;
+    text-align:center;
+
+}
+
+.w3-navbar{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+    margin-top: 0px;
+}
+
+.btn-social{
+    position:relative;
+    padding-left:44px;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border-radius: 4px;
+    border:none;
+}
+.btn-social>:first-child{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    width:32px;
+    line-height:34px;
+    font-size:1.6em;
+    text-align:center;
+    border-right:1px solid rgba(0,0,0,0.2);
+
+}
+.btn-google{
+    color:#fff;
+    background-color:#dd4b39;
+    border-color:rgba(0,0,0,0.2);
+}
+.btn-google:focus,.btn-google.focus{
+    color:#fff;
+    background-color:#c23321;
+    border-color:rgba(0,0,0,0.2);
+}
+
+.cart-style{
+    background:#fcb500;
+    color:#22292e;
+    line-height:none;/*
+    padding:9px 8px;*/
+    padding: 2px;
+    padding-right: 3px;
+    font-size:25px;
+}
+.cart-menu-width{
+    top: 140%;
+    left: -170px;
+    width: 200px;
+}
+.btn_attr{
+    background-color: #ffccb3;
+}
+.city {display:none;}
+.price_position{
+    position:relative;
+    color: teal;
+    font-size: 13px;
+    font-family: SERIF;
+    left:83px;
+    top:-25px;
+}
+.dishtype_font{
+    font-size: 12px;
+    font-family: BankGothic;
+    color: #777;
+    margin-top: 5px;
+}
+
+.c_style td{
+    text-align: left;
+}
+pre{
+    background-color: #fcfcfc;
+    line-height: 35px;
+}
+
+.wishlist_cont{
+    background-color: #FCFCFC;
+    width: 100%;
+    border-radius: 4px;
+    border:0px solid lightblue;
+    margin-top: 10px;
+    box-shadow: 1px 1px 3px lightgray;
+}
+.wishlist_topic{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px 0px 10px 10px;
+    background-color:#EAEAEA; 
+    border-radius: 2px;
+}
+.wishlist_info{
+    line-height: 35px; 
+    width: 100%;
+
+    border-bottom: 2px solid #EAEAEA;
+    padding-left: 10px;
+}
+.status_open{
+    color: green;
+    font-size: 27px;
+}
+.status_close{
+    color: red;
+    font-size: 27px;
+}
+.bidder_num{
+    color:green; 
+    font-size: 27px;
+}
+.describe{
+    width: 100%;
+    height:auto;
+
+    padding: 6px 0px 9px 25px;
+}
+.wish_data{
+    margin-bottom: 10px;
+}

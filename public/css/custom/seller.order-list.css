@@ -1,0 +1,74 @@
+.order_time{
+    padding-left: 55%;
+}
+.pay_method{
+    float: right;
+}
+.dish_img{
+    position: relative;
+    width: 50px; height:50px;
+}
+.dish_name{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+.foot_format{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+.cost_format{
+    float: right;
+}
+#no_border{
+    border-top: none;
+}
+#submit_btn{
+    background-color: #8db0f2;
+    display: inline;
+    width: inherit;
+}
+#submit_btn:hover{
+    background: #333;
+} 
+#cancel_btn{
+    background-color: #d3d3d3;
+    display: inline;
+}
+#cancel_btn:hover{
+    background: #333;
+}
+.filter{
+    padding-right: 5px;
+}
+label{
+    width:16%;
+}
+.order_time{
+    float: right;
+    /*border: 1px solid #ff6699;*/
+    background-color: #ffe6ee;
+    width: 35%;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+}
+
+.rejected{
+    font-size: 25px;
+    color: red;
+}
+
+.completed{
+    font-size: 25px;
+    color: green;
+}
+
+.seller_icon{
+    width: 40px;
+    height:40px;
+}
+
+.table-condensed{
+    margin-bottom: 0px;
+}

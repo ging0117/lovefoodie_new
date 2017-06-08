@@ -1,0 +1,60 @@
+.order_time{
+    float: right;
+    /*border: 1px solid #ff6699;*/
+    background-color: #ffe6ee;
+    width: 35%;
+    padding-bottom: 5px; 
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.rejected{
+    font-size: 25px;
+    color: red;
+}
+.accepted{
+    font-size: 25px;
+    color: green;
+}
+.new{
+    font-size: 25px;
+    color: blue;
+}
+.completed{
+    font-size: 25px;
+    color: lightgreen;
+}
+.deliver{
+    font-size: 25px;
+    color: lightblue;
+}
+.buyer_icon{
+    margin-right: 10px;
+    width: 40px;
+    height:40px;
+    border-radius: 4px;
+}
+.dish_img{
+    position: relative;
+    height: 50px;
+   width: 50px;
+   border-radius: 5px;
+}
+.dish_name{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+.foot_format{
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+.cost_format{
+    float: right;
+}
+#no_border{
+    border-top: none;
+}
+.table-condensed{
+    margin-bottom: 0px;
+}
