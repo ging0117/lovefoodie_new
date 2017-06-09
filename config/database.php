@@ -41,7 +41,8 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host'      => '172.30.142.188',
+            #'host'      => (getenv('MYSQL_SERVICE_HOST') ? getenv('MYSQL_SERVICE_HOST') : '172.30.142.188'),
+            'host'      => (getenv('MYSQL_SERVICE_HOST') ? getenv('MYSQL_SERVICE_HOST') : '127.0.0.1'),
             #'port'      => (getenv('OPENSHIFT_MYSQL_DB_PORT')) ? getenv('OPENSHIFT_MYSQL_DB_PORT') : LOCAL_MYSQL_PORT,
             #'database'  => (getenv('OPENSHIFT_APP_NAME')) ? getenv('OPENSHIFT_APP_NAME') : 'LOCAL_MYSQL_DATABASE',
             #'username'  => (getenv('OPENSHIFT_MYSQL_DB_USERNAME')) ? getenv('OPENSHIFT_MYSQL_DB_USERNAME') : 'LOCAL_MYSQL_USERNAME',
